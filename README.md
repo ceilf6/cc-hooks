@@ -1,4 +1,14 @@
-# goal 模式
+## iphone
+
+[ntfy](https://github.com/binwiederhier/ntfy)
+
+记得填你的订阅号：因为是发布-订阅模式，所以小心重复导致被监听
+
+## macbook
+
+用 terminal-notifier + osascript 兜底
+
+## goal 模式
 
 idle_prompt 的触发条件就是「输入框闲置 ≥60 秒」——它分不清「闲置是因为你真的该接手了」还是「闲置是因为模型在等后台 CI 任务、马上会自己继续」。所以监听 CI 会误报。
 
